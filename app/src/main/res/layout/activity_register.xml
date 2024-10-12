@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/edit_user_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edit_user_register" />
 
 
-    <TextView
+    <EditText
         android:id="@+id/pass_register_repeat_in_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
